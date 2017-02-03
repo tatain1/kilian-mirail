@@ -24,3 +24,16 @@ h1 {
 h2 {
 	color: #66D9EF;
 }
+
+.lateral_menu {
+	position: fixed;
+	left: 0px;
+	height: 100%;
+	width: 200px;
+}
+
+.page_content {
+	position: relative;
+	left: 210px;
+	width: 800px;
+}

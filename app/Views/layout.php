@@ -9,10 +9,20 @@
 <body>
 	<div class="container">
 		<header>
-			
+
+			<nav class="lateral_menu">
+				<ul>
+					<li><a href="<?= $this->url('accueil') ?>">Presentation</a></li>
+					<li><a href="<?= $this->url('cv') ?>">CV</a></li>
+					<li><a href="#">Réalisation</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Réseaux sociaux</a></li>
+				</ul>
+			</nav>
+
 		</header>
 
-		<section>
+		<section class="page_content">
 			<?= $this->section('main_content') ?>
 		</section>
 
