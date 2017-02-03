@@ -1,8 +1,8 @@
-<?php $this->layout('layout', ['title' => 'Accueil']) ?>
+<?php $this->layout('layout', ['title' => 'Mon CV']) ?>
 
 <?php $this->start('main_content') ?>
-	<h1>Kilian-Mirail.fr</h1>
-	<p>Site en construction.</p>
+	<h1>Mon CV</h1>
+	<p>Page en construction.</p>
 
 	<ul>
 		<li><a href="<?= $this->url('accueil') ?>">Presentation</a></li>
