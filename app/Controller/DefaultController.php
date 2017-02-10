@@ -5,8 +5,7 @@ namespace Controller;
 use \W\Controller\Controller;
 use \Services\Tools\Tools;
 use \Services\Tools\ValidationTools;
-
-
+use PHPMailer;
 
 
 class DefaultController extends Controller
@@ -19,7 +18,7 @@ class DefaultController extends Controller
 		$this->tools = new Tools();
 		$this->valid = new ValidationTools();
 	}
-	
+
 	/**
 	* Page d'accueil par défaut
 	*/
