@@ -1,7 +1,8 @@
 <?php $this->layout('layout', ['title' => 'Accueil']) ?>
 
 <?php $this->start('main_content') ?>
-	<div class="container col-xs-12 col-md-9 col-md-offset-3">
+
+<div class="container col-xs-12 col-md-10 col-md-offset-2 col-sm-9 col-sm-offset-3">
 
 		<h1>Kilian-Mirail.fr</h1>
 		<p>Site en construction.</p>
