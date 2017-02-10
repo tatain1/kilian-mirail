@@ -23,5 +23,19 @@ class DefaultController extends Controller
 		$this->show('default/cv');
 	}
 
+	/**
+	*	Affichage de la page realisations
+	*/
+	public function realisations()
+	{
+		$this->show('default/realisations');
+	}
 
+	/**
+	*	Affichage de la page contact
+	*/
+	public function contact()
+	{
+		$this->show('default/contact');
+	}
 }

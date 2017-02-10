@@ -1,16 +1,16 @@
 html, body {
 	font-family: Consolas, monaco, monospace;
-	background-color: #272822;
-	color: #F8F8F2;
+	/*background-color: #272822;*/
+	color: black;
 }
 
 .container {
-	margin: 50px;
+
 }
 
 a {
 	text-decoration: none;
-	color: #A6E22E;
+	color: white;
 }
 
 a:hover {
@@ -26,14 +26,31 @@ h2 {
 }
 
 .lateral_menu {
+	background-color: #272822;
 	position: fixed;
 	left: 0px;
+	padding-top: 50px;
 	height: 100%;
 	width: 200px;
+}
+
+.up_menu {
+	background-color: #272822;
+	margin-left: -15px;
+	margin-right: -15px;
+
 }
 
 .page_content {
 	position: relative;
 	left: 210px;
 	width: 800px;
+}
+
+.white {
+	color: white;
+}
+
+.reset {
+	padding-left: 0px;
 }
