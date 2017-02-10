@@ -69,6 +69,18 @@ class DefaultController extends Controller
 
 			$mailEncode = urlencode($email);
 			$mail = new PHPMailer();
+
+			$mail->SetLanguage('fr');
+			$mail->IsSMTP();
+			$mail->SMTPDebug  = false;
+			$mail->SMTPAuth   = true;
+
+			$mail->Host       = "smtp.live.com";
+			$mail->Port       = 25;
+			// $mail->Username   = "username";
+			// $mail->Password   = "password";
+			// $mail->From       = "monadresse";
+
 			$mail->CharSet = "utf8";
 			$mail->From = $email;
 			$mail->FromName = $email;

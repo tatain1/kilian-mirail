@@ -23,7 +23,9 @@
 				<span class="errorMessage"><?php if(!empty($error['content'])) { echo($error['content']);} ?></span>
 			</div>
 			<div class="center">
-				<input type="submit">
+				<!-- <input type="submit"> -->
+				<p>Contact via formulaire impossible pour le moment.<br>
+				Vous pouvez m'envoyer un mail à : tatain1@hotmail.com</p>
 			</div>
 		</form>
 
